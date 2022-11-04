@@ -1,0 +1,40 @@
+body
+{
+	background-image: url('sunflower.jpg');
+	background-attachment: fixed;
+    background-size: cover;
+}
+
+.poem
+{
+	font-family: "Lucida Handwriting","Tahoma";
+	font-size: 2vw;
+	color: white;
+	text-align: center;
+}
+
+.poem::first-letter
+{
+	font-size: 4vw;
+}
+
+.title
+{
+	font-family: "Casteller","Lucida Handwriting";
+	font-style: italic;
+	font-size: 5vw;
+	color: white;
+}
+
+.i
+{
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.p
+{
+    color: red;
+	text-shadow: 2px 2px 8px #FF0000;
+}
